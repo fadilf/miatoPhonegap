@@ -1,1 +1,1 @@
-# miatoPhonegap
+# miatoApp
