@@ -6,12 +6,12 @@
         <param name="onload" value="true" />
     </feature>
     <allow-intent href="market:*" />
-    <name>miatoApp</name>
+    <name>Miato</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Miato app for Miato Brick.
     </description>
     <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+        Miato
     </author>
     <content src="index.html" />
     <preference name="permissions" value="none" />
@@ -48,6 +48,7 @@
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.vibration" />
     <icon src="icon.png" />
+    <icon gap:density="xxhdpi" gap:platform="android" src="res/icon/android/icon-128-xxhdpi.png" />
     <icon gap:platform="android" gap:qualifier="ldpi" src="www/res/icon/android/icon-36-ldpi.png" />
     <icon gap:platform="android" gap:qualifier="mdpi" src="www/res/icon/android/icon-48-mdpi.png" />
     <icon gap:platform="android" gap:qualifier="hdpi" src="www/res/icon/android/icon-72-hdpi.png" />
